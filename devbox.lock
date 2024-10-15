@@ -1,0 +1,149 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "terraform@1.9.7": {
+      "last_modified": "2024-10-03T06:38:24Z",
+      "resolved": "github:NixOS/nixpkgs/2497fcbfa209055362f1029dcbd6bf9c928e937b#terraform",
+      "source": "devbox-search",
+      "version": "1.9.7",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m9d0gmkxk6lc8a3qnv00q7fc5zad1vw3-terraform-1.9.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m9d0gmkxk6lc8a3qnv00q7fc5zad1vw3-terraform-1.9.7"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5529g300sjnp7wmp7kyihd89g2n62kj3-terraform-1.9.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5529g300sjnp7wmp7kyihd89g2n62kj3-terraform-1.9.7"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jak4q1dh4b88kqdy01f2g15cxibmzb0f-terraform-1.9.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jak4q1dh4b88kqdy01f2g15cxibmzb0f-terraform-1.9.7"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hk9vpmy4g58989l91zyasrdk8qmmqn3p-terraform-1.9.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hk9vpmy4g58989l91zyasrdk8qmmqn3p-terraform-1.9.7"
+        }
+      }
+    },
+    "tflint-plugins.tflint-ruleset-aws@0.32.0": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#tflint-plugins.tflint-ruleset-aws",
+      "source": "devbox-search",
+      "version": "0.32.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7451pjq0pw90vg0m6k1vd3nyqdxvdxfk-tflint-ruleset-aws-0.32.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7451pjq0pw90vg0m6k1vd3nyqdxvdxfk-tflint-ruleset-aws-0.32.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/indqckzqgawdh72bm2n395dqzn1zrfz8-tflint-ruleset-aws-0.32.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/indqckzqgawdh72bm2n395dqzn1zrfz8-tflint-ruleset-aws-0.32.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nvk9pirsr36c6397nn4p0ny791pmjfsk-tflint-ruleset-aws-0.32.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nvk9pirsr36c6397nn4p0ny791pmjfsk-tflint-ruleset-aws-0.32.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vd9fy186j4skj4g12w21p6n57bswdrh7-tflint-ruleset-aws-0.32.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vd9fy186j4skj4g12w21p6n57bswdrh7-tflint-ruleset-aws-0.32.0"
+        }
+      }
+    },
+    "tflint@0.52.0": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#tflint",
+      "source": "devbox-search",
+      "version": "0.52.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1p5pnkp7vkv6m9n6wcgy5g72s6w4kjrk-tflint-0.52.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1p5pnkp7vkv6m9n6wcgy5g72s6w4kjrk-tflint-0.52.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cr47idvsj8my8g0s48999jwhhbqaxdcx-tflint-0.52.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cr47idvsj8my8g0s48999jwhhbqaxdcx-tflint-0.52.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/073hpg799ibp1vxcm75fxv5g21y2rify-tflint-0.52.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/073hpg799ibp1vxcm75fxv5g21y2rify-tflint-0.52.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6dh6rb7mmmpb9zsxgyg5z7bjpbgi0vww-tflint-0.52.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6dh6rb7mmmpb9zsxgyg5z7bjpbgi0vww-tflint-0.52.0"
+        }
+      }
+    }
+  }
+}
