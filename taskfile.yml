@@ -1,0 +1,27 @@
+version: 3
+tasks:
+  setup:
+    run: when_changed
+    silent: true
+    cmds:
+      - |
+        [ "$CI" == "true" ] && exit 0
+        git config remote.origin.prune true
+        git config branch.main.mergeoptions "--ff-only"
+  lint:
+    cmds:
+      - terraform validate
+      - tflint --recursive
+  format:
+    cmds:
+      - terraform fmt
+      - task: git-dirty
+  git-dirty:
+    internal: true
+    cmds:
+      - silent: true
+        cmd: |
+          if [ "$CI" = "true" ]; then
+            git add .
+            git diff --cached --exit-code
+          fi

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.4/.schema/devbox.schema.json",
+  "packages": [
+    "tflint@0.52.0",
+    "tflint-plugins.tflint-ruleset-aws@0.32.0",
+    "terraform@1.9.7"
+  ],
+  "shell": {
+    "init_hook": [
+      "task setup"
+    ]
+  }
+}
