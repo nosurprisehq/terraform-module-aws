@@ -85,8 +85,7 @@ resource "aws_iam_policy" "lambda_http_iam" {
         Action = [
           "iam:GetUserPolicy",
           "iam:PutUserPolicy",
-          "iam:DeleteUserPolicy",
-          "iam:ListUserPolicies"
+          "iam:DeleteUserPolicy"
         ]
         Resource = "arn:aws:iam::*:user/*"
       }
