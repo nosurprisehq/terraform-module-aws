@@ -16,6 +16,12 @@ variable "iam_role_http_lambda_name" {
   default     = "nosurprise-http"
 }
 
+variable "iam_policy_name" {
+  description = "Name of the inline policy created at the user"
+  type        = string
+  default     = "nosurprise-access-control"
+}
+
 variable "nosurprise_http_lambda_name" {
   description = "Name of the Lambda used to process HTTP requests"
   type        = string

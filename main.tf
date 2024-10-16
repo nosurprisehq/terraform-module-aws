@@ -135,7 +135,8 @@ resource "aws_lambda_function" "http" {
   timeout          = var.nosurprise_http_lambda_timeout
   environment {
     variables = {
-      HANDLER_TYPE = "http"
+      TIMEOUT     = var.nosurprise_http_lambda_timeout
+      POLICY_NAME = var.iam_policy_name
     }
   }
   logging_config {
